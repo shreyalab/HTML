@@ -15,7 +15,10 @@
 
     <!-- Main tag is used to define the main content of a document -->
     <main>
+     
+  
 
+>
         <!-- Section tag is used to define a section in a document -->
         <section>
             <h2> Education : BE (GNDEC) | School (GNDPS)</h2>
@@ -47,6 +50,8 @@
         <br>
         <div>
             <h2>Skills</h2>
+
+            <!-- unordered list is used to create a list of items without any numbering -->
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -56,12 +61,73 @@
 
         <div>
             <h2>Projects</h2>
+
+            <!-- ordered list is used to create a list of items with numbering -->
             <ol>
                 <li>Portfolio Website</li>
                 <li>To-Do List App</li>
                 <li>Personal Blog</li>
             </ol>
+        </div>
+        <br>
+            <spam><h3>Experience</h3></spam>
 
+          <!-- Table tag is used to define a table -->
+          <!-- Caption tag is used to define a caption for the table -->
+          <!-- Border attribute is used to define the border of the table -->
+           <!-- Cellpadding attribute is used to define the space between the cell content and cell border -->
+           <!-- Cellspacing attribute is used to define the space between the cells -->
+
+             <table border ="1" cellpadding="10" cellspacing="0">
+            <caption><h2>Education Details</h2></caption>
+
+                <thead>
+                    <!-- th tag is used to define a header cell in a table -->
+                     <!-- tr tag is used to define a row in a table -->
+                      <!-- td tag is used to define a cell in a table -->
+                      <!-- colspan attribute is used to define the number of columns a cell should span -->
+                    <tr>
+                        <th colspan="3">Details</th>
+                    </tr>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>BE</td><td>GNDEC</td><td>2024</td>
+                </tr>
+                <tr>
+                    <td>12th</td><td>GNDPS</td><td>2020</td>
+                </tr>
+                <tr>
+                    <td>10th</td><td>GNDPS</td><td>2018</td>
+                </tr>
+                </tbody>
+             </table>
+         
+             <hr>
+
+      <form action="/action.php">
+
+      <input type="text" name="name" placeholder="Enter your name" required>
+      <br><br>
+      <input type = "password" name="password" placeholder="Enter your password" required>
+      <br><br>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="101">
+        <input type = "radio" value = "class XI" name="class" ID="101"> Class XI
+        </label>
+        <br><br>
+        <label for="102">
+        <input type = "radio" value = "class XII" name="class" ID="102"> Class XII
+        <br><br>
+        </label>
+        </form> 
     </main>
 
     <footer>
