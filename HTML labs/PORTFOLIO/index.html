@@ -110,14 +110,19 @@
          
              <hr>
 
-      <form action="/action.php">
 
-      <input type="text" name="name" placeholder="Enter your name" required>
-      <br><br>
-      <input type = "password" name="password" placeholder="Enter your password" required>
-      <br><br>
-        <input type="email" name="email" placeholder="Enter your email" required>
-        <br><br>
+        <h2>Registration form</h2>
+
+      <form action="/action.php">
+      <p> Name : <input type="text" name="name" placeholder="Enter your name" required></p>
+      
+      <p>Password :<input type = "password" name="password" placeholder="Enter your password" required></p>
+
+      <p>Email :<input type="email" name="email" placeholder="Enter your email" required></p>
+    
+
+        <h3>Select your class:</h3>
+        
 
         <label for="101">
         <input type = "radio" value = "class XI" name="class" ID="101"> Class XI
@@ -127,8 +132,49 @@
         <input type = "radio" value = "class XII" name="class" ID="102"> Class XII
         <br><br>
         </label>
-        </form> 
-    </main>
+
+        
+
+
+        <h3>Select your subjects :</h3>
+        
+        <label for="sub1">
+        <input type="checkbox" value="Mathematics" name="subjects" ID="sub1"> Mathematics
+        </label>
+        
+        <label for="sub2">
+        <input type="checkbox" value="Physics" name="subjects" ID="sub2"> Physics
+        </label>
+        <br><br>
+        <label for="sub3">
+        <input type="checkbox" value="Chemistry" name="subjects" ID="sub3"> Chemistry
+        </label>
+        
+        <label for="sub4">
+        <input type="checkbox" value="Biology" name="subjects" ID="sub4"> Biology
+        </label>
+        <br><br>
+        <h3>Sports:</h3>
+        <select name="sports" >
+            <option value="" disabled selected>Select your favorite sport</option>
+            <option value="Cricket">Cricket</option>
+            <option value="Football">Football</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Tennis">Tennis</option>
+        </select>
+        <h3>Feedback:</h3>
+        <textarea name="feedback" rows="4" cols="50" placeholder="Please give your feedback">feedback</textarea>
+        <br><br>
+
+    <input type="submit" value="Submit">
+    </form> 
+
+    <hr>
+
+    <iframe src="https://www.wikipedia.org/" width="600" height="400" title="Wikipedia Website"></iframe>
+    <iframe src="https://www.google.com/" width="600" height="400" title="Google Website"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ax_npBKTKMw?si=e_kwn-3UP-2LCnJL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</main>
 
     <footer>
         <p>Contact: <a href="mailto:shreyabashetty@gmail.com">shreyabashetty@gmail.com</a></p>
